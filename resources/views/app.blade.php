@@ -15,7 +15,6 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-lsdkşla
 
     <!-- Module Styles -->
     @foreach(\Crater\Services\Module\ModuleFacade::allStyles() as $name => $path)
