@@ -17,6 +17,7 @@ import sk from './sk.json'
 import vi from './vi.json'
 import el from './el.json'
 import hr from './hr.json'
+import tr from './tr.json'
 import th from './th.json'
 
 export default {
@@ -39,5 +40,6 @@ export default {
   pl,
   el,
   hr,
+  tr,
   th
 }
