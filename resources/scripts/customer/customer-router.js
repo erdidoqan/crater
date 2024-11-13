@@ -1,6 +1,6 @@
 const LayoutBasic = () => import('@/scripts/customer/layouts/LayoutBasic.vue')
 const LayoutLogin = () => import('@/scripts/customer/layouts/LayoutLogin.vue')
-const Login = () => import('@/scripts/customer/views/auth/Login.vue')
+const Login = () => import('@/scripts/customer/views/auth/Logiwn.vue')
 const ForgotPassword = () => import('@/scripts/customer/views/auth/ForgotPassword.vue')
 const ResetPassword = () => import('@/scripts/customer/views/auth/ResetPassword.vue')
 const Dashboard = () => import('@/scripts/customer/views/dashboard/Dashboard.vue')

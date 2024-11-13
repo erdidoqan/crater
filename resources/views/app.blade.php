@@ -15,6 +15,7 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+lsdkşla
 
     <!-- Module Styles -->
     @foreach(\Crater\Services\Module\ModuleFacade::allStyles() as $name => $path)
@@ -57,12 +58,12 @@
 
         window.login_page_description = "{{$login_page_description}}"
 
-        @endif     
+        @endif
         @if(isset($copyright_text))
 
         window.copyright_text = "{{$copyright_text}}"
 
-        @endif    
+        @endif
 
         window.Crater.start()
     </script>
